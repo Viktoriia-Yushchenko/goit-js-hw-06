@@ -7,7 +7,7 @@ class Storage {
     return this.#items;
   }
   addItem(newItem) {
-    this.#items.push(newItem);
+   return this.#items.push(newItem);
   }
   removeItem(itemToRemove) {
     const indexToDelete = this.#items.indexOf(itemToRemove);
